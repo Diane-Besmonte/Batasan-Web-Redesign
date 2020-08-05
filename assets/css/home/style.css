@@ -1,0 +1,223 @@
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+
+
+@media(max-width : 576px){
+  
+}
+
+body{
+    font-family: "Roboto Slab" !important;
+}
+
+
+.heading-color{
+    color: #10312B;
+    font-family: "Domine";
+    
+}
+
+
+.heading-font{
+    font-family: "Domine";
+}
+
+.btn-color{
+    background-color: #15a752 !important;
+}
+
+.btn-color:hover{
+    background-color: #10312B !important;
+}
+
+
+/* Navbar Css*/
+.BatasanImg{
+width: 90px;
+height: auto;
+
+}
+
+
+.batasanTitle  {
+position: absolute;
+width: 150px;
+left: 100px;
+top: 25px;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-family: "Roboto Slab";
+}
+
+.colorNav{
+    background-color: #10312B !important;
+}
+
+
+.padTop{
+  padding-top: 110px;
+}
+
+.navtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+}
+
+/*Carousel*/
+
+
+
+
+.carousel-inner{
+    
+    
+    max-height: 900px;
+    height: 100%;
+}
+.carousel-item{
+    width: 100%;
+    max-height: 850px;
+
+
+}
+
+.carousel-item img{
+   
+    object-fit: cover;
+}
+
+.carousel-font{
+    font-family: "Rubik";
+}
+
+
+
+
+
+
+.iframe-youtube{
+    max-width: 700px;
+    
+    max-height: 600px;
+}
+
+
+
+
+
+
+
+
+.about-img{
+    max-width: 500px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.lupong-img{
+    max-height: 500px;
+    height: 100%;
+    max-width: 800px;
+    width: 100%;
+}
+
+
+
+.fa-question-circle{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #10312B;
+    padding: 10px auto;
+}
+
+footer p{
+    color: rgb(246,247,249);
+    font-size: 1rem;
+    padding: 10px 0;
+}
+footer h3{
+    color: rgb(246,247,249);
+}
+
+.fa-quote-left{
+    position: relative;
+    font-size: 6em;
+    bottom : 1rem;
+    right: 2rem;
+    color: rgb(226, 222, 222);
+}
+
+.border-right {
+  border-right-width: 2px;
+}
+
+.navbar-nav > li > .dropdown-menu { background-color: #10312B; }
+.navbar-nav > li > .dropdown-menu a{   color: #fff;  }
+.navbar-nav > li > .dropdown-menu a:hover { background-color: #15a752;}
+
+/* bg effects
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+} */

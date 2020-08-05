@@ -1,0 +1,199 @@
+.map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.map-caption .icon:hover i,.map-caption .icon:hover h4{
+	color: rgb(31, 99, 86);
+}
+
+.card-body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.col-lg-6 .map {
+  height: 365px;
+  width: 100%;
+}
+
+.btn-success, .bg {
+    background-color: #15a752 !important;
+}
+
+.btn-success:hover{
+    background-color: #10312B !important;
+}
+
+
+
+@media(max-width : 576px){
+  
+}
+
+body{
+    font-family: "Roboto Slab" !important;
+}
+
+
+.heading-color{
+    color: #10312B;
+    
+}
+
+.btn-color{
+    background-color: #15a752 !important;
+}
+
+.btn-color:hover{
+    background-color: #10312B !important;
+}
+
+
+/* Navbar Css*/
+.BatasanImg{
+width: 90px;
+height: auto;
+
+}
+
+
+.batasanTitle  {
+position: absolute;
+width: 150px;
+left: 100px;
+top: 25px;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-family: "Roboto Slab";
+}
+
+.colorNav{
+    background-color: #10312B !important;
+}
+
+
+.padTop{
+  padding-top: 110px;
+}
+
+.navtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+}
+
+/*Carousel*/
+
+
+
+
+.carousel-size{
+    width: 100%;
+ 
+    height: 100%;
+}
+.carousel-img{
+    max-height: 800px;
+    object-fit: cover;
+
+}
+.carousel-font{
+    font-family: "Rubik";
+}
+
+
+
+
+.iframe-youtube{
+    max-width: 700px;
+    
+    max-height: 600px;
+}
+
+.about-img{
+    max-width: 500px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.lupong-img{
+    max-height: 500px;
+    height: 100%;
+    max-width: 800px;
+    width: 100%;
+}
+
+
+
+.fa-question-circle{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #10312B;
+    padding: 10px auto;
+}
+
+footer p{
+    color: rgb(246,247,249);
+    font-size: 1rem;
+    padding: 10px 0;
+}
+footer h3{
+    color: rgb(246,247,249);
+}
+
+.fa-quote-left{
+    position: relative;
+    font-size: 6em;
+    bottom : 1rem;
+    right: 2rem;
+    color: rgb(226, 222, 222);
+}
+
+.border-right {
+  border-right-width: 2px;
+}
+
+.navbar-nav > li > .dropdown-menu { background-color: #10312B; }
+.navbar-nav > li > .dropdown-menu a{   color: #fff;  }
+.navbar-nav > li > .dropdown-menu a:hover { background-color: #15a752;}
+
+
+.font-color {
+  color: black;
+  font-family: "Roboto Slab" !important;
+}
+
+
+
+/* bg effect */
+
+/* body {
+	background: linear-gradient(-45deg, rgb(38, 240, 72), rgb(72, 245, 213), #279153, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */

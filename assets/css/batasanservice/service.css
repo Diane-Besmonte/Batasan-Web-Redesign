@@ -1,0 +1,138 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Navbar Css*/
+  
+  .heading-font{
+      font-family: "Domine";
+  }
+  
+  .BatasanImg
+  {
+  width: 90px;
+  height: auto;
+  
+  }
+  
+  
+  
+  .batasanTitle  {
+  position: absolute;
+  width: 150px;
+  left: 100px;
+  top: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab";
+  }
+  
+  .colorNav{
+    background-color:#10312b;
+  }
+  
+  
+  
+  .padTop{
+  padding-top: 110px;
+  }
+  
+  .navtext{
+    font-family: "Roboto-Slab";
+    font-size: 24px;
+  
+  }
+  .dd{
+   margin-top: 8px;
+  }
+  /* body*/
+  body{
+      font-family: "Roboto Slab" !important;
+  }
+  .front{
+    margin-top: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
+  .cover{
+    display: block;
+    margin: auto;
+    width: 95%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 5vh;
+    
+  }
+  
+  .textinside{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #10312b;
+    -webkit-text-stroke: thin white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+  }
+  .content1   {
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  .mission  {
+    margin: 20px;
+  }
+  .content2   {
+    font-size: 20px;
+    text-align: left;
+  
+  }
+  .photo2 img{
+    width: 350px;
+    height: 250px;
+  }
+  /* bodyend */
+  /* footerstart*/
+  footer{
+    background-color: #10312b;
+    padding: 10px auto;
+  }
+  
+  footer p{
+    color: rgb(246,247,249);
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+  footer h3{
+    color: rgb(246,247,249);
+  }
+  
+  .fa-quote-left{
+    position: relative;
+    font-size: 6em;
+    bottom : 1rem;
+    right: 5rem;
+    color: rgb(226, 222, 222);
+  }
+  
+  .fa-quote-right{
+    position: relative;
+    font-size: 6rem;
+    left: 22rem;
+    color: rgb(226, 222, 222);
+  }
+  /* footerend*/
+  
+  @media screen and (max-width: 768px){
+    .textinside h1{
+      font-size: 20px;
+      -webkit-text-stroke: thin white;
+    }
+    .photo2 img{
+      flex-direction: column;
+      width: 100%;
+    }
+   
+  }
